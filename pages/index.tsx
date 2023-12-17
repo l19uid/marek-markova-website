@@ -1,7 +1,7 @@
 import Carousel from "../components/Carousel";
 import React, {useState} from "react";
 import {Box, Card, Grid, Icon, Paper} from "@mui/material";
-import {GetImages} from "./GetImages";
+import {GetImages} from "../components/GetImages";
 import {ThemeProvider, width} from "@mui/system";
 import {createTheme} from "@mui/material/styles";
 import ToTopButton from "@/components/ToTopButton";
