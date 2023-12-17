@@ -240,7 +240,7 @@ const IndexPage = ({first,second,third,fourth,fifth,sixth}) => {
                             lg: 1040,
                             ml: 1160,
                             xml: 1380
-                        }, fontSize: {xs: "10px", sm: "16px",fk:"32px"}
+                        }, fontSize: {xs: "10px", sm: "24px",fk:"32px"}
                     }}>
                         <div>Řezbařina</div>
                         <br/>
