@@ -31,7 +31,7 @@ const theme = createTheme({
     },
 });
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
     const first = GetImages(process.env.FIRST);
     const second = GetImages(process.env.SECOND);
     const third = GetImages(process.env.THIRD);
